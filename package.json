@@ -1,0 +1,28 @@
+{
+  "name": "solana-wallet",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@rollup/plugin-inject": "^5.0.5",
+    "@solana-developers/helpers": "^2.3.0",
+    "@solana/web3.js": "^1.94.0",
+    "buffer": "^6.0.3",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "material-design-icons-iconfont": "^6.7.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vue-tsc": "^2.0.21",
+    "vuetify": "^3.6.10"
+  }
+}

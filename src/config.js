@@ -1,0 +1,1 @@
+export const RPC_ADDRESS = "http://localhost:8899/";
